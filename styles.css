@@ -1,3 +1,4 @@
+
 .sidebar-container {
     display: flex;
     flex-direction: column;
@@ -10,3 +11,68 @@
 p {
     font-size: 14px;
 }
+
+
+footer {
+    display: block;
+  }
+  
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "sidebar-left main sidebar-right"
+    "footer footer footer";
+  grid-template-columns: 20% 1fr 15%;
+  grid-template-rows: 100px 70px 1fr 95px;
+  gap: 3px;
+  margin: 0;
+  height: 100vh;
+}
+
+#header {
+  grid-area: header;
+}
+
+#nav {
+  grid-area: nav;
+}
+#sidebar-left {
+  grid-area: sidebar-left;
+}
+#main-content {
+  grid-area: main;
+}
+#sidebar-right {
+  grid-area: sidebar-right;
+}
+#footer {
+  grid-area: footer;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  height: 3em;
+  width: 100%;
+  font-size: 20px;
+  background-color: #333;
+  color: white;
+  align-items: center;
+}
+.nav-right {
+  display: flex;
+  margin-left: auto;
+  gap: 1em;
+  margin-right: 1.5em;
+}
+.nav-left {
+  display: flex;
+  gap: 1em;
+  margin-left: 1.5em;
+}
+
