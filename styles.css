@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  height: 3em;
+  width: 100%;
+  font-size: 20px;
+  background-color: #333;
+  color: white;
+  align-items: center;
+  
+}
+.nav-right {
+  display: flex;
+  margin-left: auto;
+  gap: 1em;
+  margin-right: 1.5em;
+  
+  
+}
+.nav-left {
+  display: flex;
+  gap: 1em;
+  margin-left: 1.5em;
+}
