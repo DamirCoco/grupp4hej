@@ -1,0 +1,12 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cat1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 14px;
+}
