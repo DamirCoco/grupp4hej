@@ -1,3 +1,8 @@
+
+footer {
+    display: block;
+  }
+  
 body {
   display: grid;
   grid-template-areas:
@@ -56,3 +61,4 @@ body {
   gap: 1em;
   margin-left: 1.5em;
 }
+
